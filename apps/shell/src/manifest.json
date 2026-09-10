@@ -49,29 +49,6 @@
       }
     },
     {
-      "name": "resume",
-      "scope": "resume",
-      "module": "./Resume",
-      "url": "/portfolio/remotes/resume/remoteEntry.js",
-      "devUrl": "http://localhost:3004/remoteEntry.js",
-      "route": "/resume",
-      "navLabel": "Resume",
-      "navOrder": 2,
-      "framework": "react",
-      "version": "2.1.0",
-      "metadata": {
-        "owner": "N R Shyamsundar",
-        "deploymentId": "deploy_i9j0k1l2",
-        "gitCommit": "b2c3d4e5",
-        "buildTime": "2026-08-05T12:10:00Z",
-        "frameworkVersion": "React 18.3.1",
-        "runtimeDependencies": ["react", "react-dom"],
-        "sharedDependencies": ["@impossible-resume/event-bus", "@impossible-resume/design-tokens"],
-        "exposedModules": ["./Resume"],
-        "consumedRemotes": []
-      }
-    },
-    {
       "name": "blog",
       "scope": "blog",
       "module": "./Blog",
@@ -164,7 +141,7 @@
           "@impossible-resume/design-tokens"
         ],
         "exposedModules": ["./DevTools"],
-        "consumedRemotes": ["landing", "projects", "resume", "blog", "contact", "playground"]
+        "consumedRemotes": ["landing", "projects", "blog", "contact", "playground"]
       }
     }
   ]

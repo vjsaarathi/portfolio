@@ -7,7 +7,7 @@ echo "=========================================================="
 export NODE_ENV=production
 
 # Build apps in order
-for app in landing projects blog resume contact playground devtools shell; do
+for app in landing projects blog contact playground devtools shell; do
   echo "Building app: $app..."
   cd "apps/$app"
   bun run build
@@ -24,7 +24,7 @@ mkdir -p dist/remotes
 cp -r apps/shell/dist/* dist/
 
 # Copy each remote output to dist/remotes/<name>/
-for remote in landing projects blog resume contact playground devtools; do
+for remote in landing projects blog contact playground devtools; do
   mkdir -p "dist/remotes/$remote"
   cp -r "apps/$remote/dist/"* "dist/remotes/$remote/"
 done

@@ -12,7 +12,6 @@
     "build:landing": "cd apps/landing && bun run build",
     "build:projects": "cd apps/projects && bun run build",
     "build:blog": "cd apps/blog && bun run build",
-    "build:resume": "cd apps/resume && bun run build",
     "build:contact": "cd apps/contact && bun run build",
     "build:playground": "cd apps/playground && bun run build",
     "build:devtools": "cd apps/devtools && bun run build",
