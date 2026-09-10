@@ -23,6 +23,9 @@ mkdir -p dist/remotes
 # Copy shell output to dist root
 cp -r apps/shell/dist/* dist/
 
+# Create 404.html fallback for GitHub Pages SPA routing
+cp dist/index.html dist/404.html
+
 # Copy each remote output to dist/remotes/<name>/
 for remote in landing projects blog contact playground devtools; do
   mkdir -p "dist/remotes/$remote"

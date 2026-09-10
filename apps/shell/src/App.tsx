@@ -170,6 +170,17 @@ function AppContent() {
             </ErrorBoundary>
           </div>
         )}
+
+        {/* 404 Fallback when no route matches */}
+        {!activeRemote && (
+          <div className="not-found-page" style={{ textAlign: 'center', padding: 'var(--space-16) var(--space-4)', marginTop: '10vh' }}>
+            <h1 style={{ fontSize: 'var(--text-4xl)', fontWeight: 'var(--font-bold)', color: 'var(--color-text-primary)', marginBottom: 'var(--space-4)' }}>404</h1>
+            <p style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--text-lg)', marginBottom: 'var(--space-8)' }}>We couldn't find the page you were looking for.</p>
+            <button onClick={() => handleNavigate('/')} className="hero__button hero__button--primary">
+              Return Home
+            </button>
+          </div>
+        )}
       </main>
     </div>
   );
