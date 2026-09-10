@@ -1,0 +1,16 @@
+.devtools-dashboard {
+  padding: var(--space-4) 0 var(--space-16);
+}
+.devtools-banner {
+  margin-bottom: var(--space-8);
+  padding: var(--space-5) var(--space-7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: var(--color-accent-primary);
+}
+.devtools-dashboard__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}

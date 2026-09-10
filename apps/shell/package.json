@@ -1,0 +1,19 @@
+{
+  "name": "@impossible-resume/shell",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open"
+  },
+  "dependencies": {
+    "@impossible-resume/design-tokens": "workspace:*",
+    "@impossible-resume/event-bus": "workspace:*",
+    "@impossible-resume/framework-adapters": "workspace:*",
+    "@impossible-resume/runtime-tracker": "workspace:*",
+    "gsap": "^3.12.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

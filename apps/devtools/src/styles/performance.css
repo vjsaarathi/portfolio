@@ -1,0 +1,90 @@
+.performance-dashboard {
+  padding: 1.25rem;
+  border-radius: var(--radius-xl);
+  background: var(--color-bg-secondary);
+}
+.metric-gauge {
+  padding: 1rem;
+  text-align: center;
+}
+.metric-gauge__svg {
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+}
+.metric-gauge__progress {
+  transition: stroke-dashoffset 0.3s ease;
+}
+.metric-gauge__label {
+  font-size: 0.7rem;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  display: block;
+}
+.sparkline-chart {
+  padding: 1rem;
+}
+.sparkline-chart__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.sparkline-chart__label {
+  font-size: 0.7rem;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+}
+.sparkline-chart__value {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.sparkline-chart__svg {
+  width: 100%;
+  height: auto;
+}
+.loading-waterfall {
+  margin-top: 1.5rem;
+}
+.loading-waterfall__title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.loading-waterfall__chart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: #07070a;
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+}
+.loading-waterfall__row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+}
+.loading-waterfall__name {
+  min-width: 100px;
+  color: var(--color-text-secondary);
+}
+.loading-waterfall__bar-container {
+  flex: 1;
+  background: var(--color-bg-secondary);
+  height: 18px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  position: relative;
+}
+.loading-waterfall__bar {
+  height: 100%;
+  border-radius: var(--radius-sm);
+  transition: width 0.5s ease;
+}
+.loading-waterfall__time {
+  min-width: 50px;
+  text-align: right;
+  color: var(--color-text-tertiary);
+}

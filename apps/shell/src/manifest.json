@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-08-05T00:00:00Z",
+  "remotes": [
+    {
+      "name": "landing",
+      "scope": "landing",
+      "module": "./Landing",
+      "url": "/portfolio/remotes/landing/remoteEntry.js",
+      "devUrl": "http://localhost:3001/remoteEntry.js",
+      "route": "/",
+      "navLabel": null,
+      "navOrder": 0,
+      "framework": "react",
+      "version": "1.0.0",
+      "metadata": {
+        "owner": "N R Shyamsundar",
+        "deploymentId": "deploy_a1b2c3d4",
+        "gitCommit": "f4e5d6c7",
+        "buildTime": "2026-08-05T12:00:00Z",
+        "frameworkVersion": "React 18.3.1",
+        "runtimeDependencies": ["react", "react-dom"],
+        "sharedDependencies": ["@impossible-resume/event-bus", "@impossible-resume/design-tokens"],
+        "exposedModules": ["./Landing"],
+        "consumedRemotes": []
+      }
+    },
+    {
+      "name": "projects",
+      "scope": "projects",
+      "module": "./Projects",
+      "url": "/portfolio/remotes/projects/remoteEntry.js",
+      "devUrl": "http://localhost:3002/remoteEntry.js",
+      "route": "/projects",
+      "navLabel": "Projects",
+      "navOrder": 1,
+      "framework": "react",
+      "version": "1.2.0",
+      "metadata": {
+        "owner": "N R Shyamsundar",
+        "deploymentId": "deploy_e5f6g7h8",
+        "gitCommit": "a1b2c3d4",
+        "buildTime": "2026-08-05T12:05:00Z",
+        "frameworkVersion": "React 18.3.1",
+        "runtimeDependencies": ["react", "react-dom"],
+        "sharedDependencies": ["@impossible-resume/event-bus", "@impossible-resume/design-tokens"],
+        "exposedModules": ["./Projects"],
+        "consumedRemotes": []
+      }
+    },
+    {
+      "name": "resume",
+      "scope": "resume",
+      "module": "./Resume",
+      "url": "/portfolio/remotes/resume/remoteEntry.js",
+      "devUrl": "http://localhost:3004/remoteEntry.js",
+      "route": "/resume",
+      "navLabel": "Resume",
+      "navOrder": 2,
+      "framework": "react",
+      "version": "2.1.0",
+      "metadata": {
+        "owner": "N R Shyamsundar",
+        "deploymentId": "deploy_i9j0k1l2",
+        "gitCommit": "b2c3d4e5",
+        "buildTime": "2026-08-05T12:10:00Z",
+        "frameworkVersion": "React 18.3.1",
+        "runtimeDependencies": ["react", "react-dom"],
+        "sharedDependencies": ["@impossible-resume/event-bus", "@impossible-resume/design-tokens"],
+        "exposedModules": ["./Resume"],
+        "consumedRemotes": []
+      }
+    },
+    {
+      "name": "blog",
+      "scope": "blog",
+      "module": "./Blog",
+      "url": "/portfolio/remotes/blog/remoteEntry.js",
+      "devUrl": "http://localhost:3003/remoteEntry.js",
+      "route": "/blog",
+      "navLabel": "Blog",
+      "navOrder": 3,
+      "framework": "vue",
+      "version": "1.5.0",
+      "metadata": {
+        "owner": "N R Shyamsundar",
+        "deploymentId": "deploy_m3n4o5p6",
+        "gitCommit": "c3d4e5f6",
+        "buildTime": "2026-08-05T12:15:00Z",
+        "frameworkVersion": "Vue 3.4.0",
+        "runtimeDependencies": ["vue"],
+        "sharedDependencies": ["@impossible-resume/event-bus", "@impossible-resume/design-tokens"],
+        "exposedModules": ["./Blog"],
+        "consumedRemotes": []
+      }
+    },
+    {
+      "name": "contact",
+      "scope": "contact",
+      "module": "./Contact",
+      "url": "/portfolio/remotes/contact/remoteEntry.js",
+      "devUrl": "http://localhost:3005/remoteEntry.js",
+      "route": "/contact",
+      "navLabel": "Contact",
+      "navOrder": 5,
+      "framework": "react",
+      "version": "1.0.0",
+      "metadata": {
+        "owner": "N R Shyamsundar",
+        "deploymentId": "deploy_q7r8s9t0",
+        "gitCommit": "d4e5f6g7",
+        "buildTime": "2026-08-05T12:20:00Z",
+        "frameworkVersion": "React 18.3.1",
+        "runtimeDependencies": ["react", "react-dom", "@formspree/react"],
+        "sharedDependencies": ["@impossible-resume/event-bus", "@impossible-resume/design-tokens"],
+        "exposedModules": ["./Contact"],
+        "consumedRemotes": []
+      }
+    },
+    {
+      "name": "playground",
+      "scope": "playground",
+      "module": "./Playground",
+      "url": "/portfolio/remotes/playground/remoteEntry.js",
+      "devUrl": "http://localhost:3006/remoteEntry.js",
+      "route": "/playground",
+      "navLabel": "Playground",
+      "navOrder": 4,
+      "framework": "svelte",
+      "version": "0.8.0",
+      "metadata": {
+        "owner": "N R Shyamsundar",
+        "deploymentId": "deploy_u1v2w3x4",
+        "gitCommit": "e5f6g7h8",
+        "buildTime": "2026-08-05T12:25:00Z",
+        "frameworkVersion": "Svelte 4.2.0",
+        "runtimeDependencies": ["svelte"],
+        "sharedDependencies": ["@impossible-resume/event-bus", "@impossible-resume/design-tokens"],
+        "exposedModules": ["./Playground"],
+        "consumedRemotes": []
+      }
+    },
+    {
+      "name": "devtools",
+      "scope": "devtools",
+      "module": "./DevTools",
+      "url": "/portfolio/remotes/devtools/remoteEntry.js",
+      "devUrl": "http://localhost:3007/remoteEntry.js",
+      "route": "/devtools",
+      "navLabel": null,
+      "navOrder": 99,
+      "framework": "react",
+      "version": "3.0.0",
+      "metadata": {
+        "owner": "N R Shyamsundar",
+        "deploymentId": "deploy_y5z6a7b8",
+        "gitCommit": "f6g7h8i9",
+        "buildTime": "2026-08-05T12:30:00Z",
+        "frameworkVersion": "React 18.3.1",
+        "runtimeDependencies": ["react", "react-dom", "d3"],
+        "sharedDependencies": [
+          "@impossible-resume/event-bus",
+          "@impossible-resume/runtime-tracker",
+          "@impossible-resume/design-tokens"
+        ],
+        "exposedModules": ["./DevTools"],
+        "consumedRemotes": ["landing", "projects", "resume", "blog", "contact", "playground"]
+      }
+    }
+  ]
+}

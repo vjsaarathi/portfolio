@@ -1,0 +1,65 @@
+.architecture-graph-wrapper {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  padding: 1rem;
+  background: var(--color-bg-secondary);
+}
+.graph-node__pulse {
+  animation: pulse 2s infinite;
+}
+.graph-edge--animated {
+  animation: dash 1s linear infinite;
+}
+.node-inspector {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 280px;
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+  font-size: 0.75rem;
+}
+.node-inspector__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.node-inspector__title {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.node-inspector__close {
+  cursor: pointer;
+  color: var(--color-text-tertiary);
+}
+.node-inspector__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.node-inspector__label {
+  color: var(--color-text-secondary);
+}
+.node-inspector__value {
+  font-weight: 600;
+}
+.node-inspector__value--mono {
+  font-family: var(--font-mono);
+}
+.node-inspector__section {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--color-border-primary);
+}
+.node-inspector__tags {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+.node-inspector__tag {
+  font-family: var(--font-mono);
+  color: var(--color-accent-hover);
+}

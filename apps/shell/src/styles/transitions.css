@@ -1,0 +1,27 @@
+.main {
+  transition: all var(--duration-normal) var(--ease-default);
+}
+
+.main--transitioning {
+  opacity: 0;
+  transform: scale(0.98) translateY(10px);
+}
+
+.app--dev-mode .main {
+  animation: developerModePeel var(--duration-slowest) var(--ease-out) forwards;
+}
+
+/* Microfrontend Showcase Adaptive Grid */
+.showcase-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+  padding: 0 var(--space-4);
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .showcase-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

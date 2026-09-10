@@ -1,0 +1,18 @@
+{
+  "name": "@impossible-resume/contact",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@impossible-resume/design-tokens": "workspace:*",
+    "@impossible-resume/event-bus": "workspace:*",
+    "@impossible-resume/runtime-tracker": "workspace:*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
