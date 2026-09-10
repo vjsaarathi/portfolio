@@ -20,11 +20,11 @@ export const projects: Project[] = [
   },
   {
     name: 'airlane',
-    description: 'A high-performance systems programming project exploring low-level networking primitives, built in Rust for memory safety.',
+    description: '',
     language: 'Rust',
     url: 'https://github.com/vjsaarathi/airlane',
     stars: 0,
-    topics: ['rust', 'systems-programming', 'networking', 'async'],
+    topics: ['rust'],
     featured: true,
   },
   {
@@ -34,15 +34,6 @@ export const projects: Project[] = [
     url: 'https://github.com/vjsaarathi/kv',
     stars: 0,
     topics: ['distributed-systems', 'raft', 'consensus', 'java', 'storage'],
-    featured: true,
-  },
-  {
-    name: 'tms',
-    description: 'A concurrent task management system built with Go, featuring clean architecture and RESTful API endpoints.',
-    language: 'Go',
-    url: 'https://github.com/vjsaarathi/tms',
-    stars: 0,
-    topics: ['go', 'backend', 'api', 'concurrency'],
     featured: true,
   },
   {
