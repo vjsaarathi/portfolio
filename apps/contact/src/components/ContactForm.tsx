@@ -12,7 +12,7 @@ export function ContactForm() {
     eventBus.emit('contact:form_submit', 'contact', { timestamp: Date.now() });
 
     try {
-      const response = await fetch('https://formspree.io/f/xyzformid', {
+      const response = await fetch('https://formspree.io/f/mnpqyqoy', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(formData),

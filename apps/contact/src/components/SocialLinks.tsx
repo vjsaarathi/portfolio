@@ -2,8 +2,8 @@ import React from 'react';
 
 const socials = [
   { name: 'GitHub', url: 'https://github.com/vjsaarathi', icon: '🐙' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/shyamsundar-nr', icon: '💼' },
-  { name: 'Email', url: 'mailto:shyamsundar.nr@outlook.com', icon: '✉️' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/in/nrssi', icon: '💼' },
+  { name: 'Email', url: 'mailto:nrshyamsundariyanger@protonmail.com', icon: '✉️' },
 ];
 
 export function SocialLinks() {
