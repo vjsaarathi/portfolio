@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_impossible_resume_blog=self.webpackChunk_impossible_resume_blog||[]).push([[5351],{5351(e,s,i){i.d(s,{createEventModelingServices:()=>l.g});var l=i(6499);i(18)}}]);
